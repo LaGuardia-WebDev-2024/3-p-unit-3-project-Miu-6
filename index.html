@@ -1,60 +1,119 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ 2/2 ] Two External Links
+[ 1/1 ] Table
+[ 3/3 ] Three CSS Rules
+[ 3/3 ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[ 2/2 ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      h1 {
+        color: rgb(300, 300, 459);
+      }
+      body {
+        background-color: rgb(189, 200, 401);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Recipe book for a people who just want lemonade</h1>
 
-<body>
+    <h2>Contents:</h2>
+    <p>
+      Jump to sections: <a href="#Recipe">Recipe "Lemonade"</a>,
+      <a href="#Source">Source</a>
+    </p>
+    <h2 id="Recipe">Recipe "Lemonade"</h2>
 
-  <h1>____'s Recipe Book</h1>
+    <ul>
+      <li>Time: 10 minutes</li>
+      <li>Serves:</li>
+    </ul>
 
-  <h2>Contents:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>lemons</td>
+          <td>3-4</td>
+        </tr>
+        <tr>
+          <td>Sugar</td>
+          <td>1 cup</td>
+        </tr>
+        <tr>
+          <td>water</td>
+          <td>1 cup</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <p>
+      <strong>Step 1:</strong> Combine 1 cup each of sugar and water and cook
+      over medium heat until the sugar dissolves.
+    </p>
+    <p>
+      <img
+        src="https://www.wikihow.com/images/thumb/7/78/Make-Sugar-Water-Step-2-Version-4.jpg/550px-nowatermark-Make-Sugar-Water-Step-2-Version-4.jpg"
+        alt="sugar, water"
+        width="300"
+      />
+    </p>
+    <p>
+      <strong>Step 2:</strong> Set the syrup aside to cool for about 10 minutes.
+    </p>
+    <p>
+      <img src="https://i.redd.it/4wdcnilvj74a1.jpg" alt="sugar" width="300" />
+    </p>
+    <p>
+      <strong>Step 3:</strong> Combine the cooled syrup and freshly-squeezed
+      lemon juice in a pitcher.
+    </p>
+    <img
+      src="https://natashaskitchen.com/wp-content/uploads/2023/07/Lemonade-Recipe-4.jpg"
+      alt="lemonade"
+      width="300"
+    />
 
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+    <p>
+      <strong>Step 4:</strong> Add the remaining water and stir, then pour over
+      ice and enjoy!
+    </p>
+    <p>
+      <em id="Source"
+        >Source:
+        <a href="https://sugarspunrun.com/homemade-lemonade-recipe/"
+          >Lemonade recipe
+        </a></em
+      >
+      <em>
+        Another lemonade recipe:
+        <a href="https://www.allrecipes.com/recipe/32385/best-lemonade-ever/">
+          Lemonade recipe #2
+        </a>
+      </em>
+    </p>
+  </body>
 </html>
